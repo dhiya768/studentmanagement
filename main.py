@@ -22,8 +22,12 @@ while True:
         student.search_student(students)
 
     elif choice == "4":
+        student.delete_student(students)
+
+    elif choice == "5":
         print("Thank you!")
         break
+
 
     else:
         print("Invalid choice. Please try again.")
