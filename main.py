@@ -1,5 +1,5 @@
 import student
-
+print("Welcome to Student Management System")
 students = []
 
 while True:
